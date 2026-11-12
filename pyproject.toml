@@ -1,0 +1,15 @@
+[project]
+name = "seoul-college-student-lottery"
+version = "0.1.0"
+description = "2026 제2차 서울시 대학생 협의체 간담회 실시간 현장 추첨 시스템"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.143.0",
+    "uvicorn[standard]>=0.54.0",
+    "supabase>=2.32.0",
+    "python-dotenv>=1.2.4",
+    "jinja2>=3.1.6",
+    "websockets>=15.0.1",
+    "pydantic>=2.14.0",
+]
